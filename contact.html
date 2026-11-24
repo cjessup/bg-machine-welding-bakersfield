@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | B&amp;G Machine and Welding</title>
+<meta name="description" content="Contact B&amp;G Machine and Welding, 3801 Gilmore Ave, Bakersfield, CA 93308. Call 661-322-7764. 24 hour emergency call out is available.">
+<link rel="icon" href="assets/b.GIF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <img src="assets/b.GIF" alt="B&amp;G" width="170" height="153">
+      <span class="wordmark">B&amp;G Machine and Welding</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" onclick="var n=document.getElementById('site-nav');var o=n.classList.toggle('is-open');this.setAttribute('aria-expanded',o?'true':'false');this.textContent=o?'Close':'Menu';">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="careers.html">Careers</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="mailto:contact@bgmach.com">E-mail</a>
+      <a href="hobble-clamp.html">Hobble-Clamp</a>
+    </nav>
+    <a class="head-call" href="tel:+16613227764">Call Today : 661-322-7764</a>
+  </div>
+</header>
+
+<main id="content">
+  <img class="hero-photo" src="assets/Pic00001-01.jpg" alt="B&amp;G Machine and Welding shop building" width="632" height="281">
+
+  <section class="band">
+    <div class="wrap pair">
+      <div class="reveal">
+        <h1>Contact</h1>
+        <p class="emergency"><a href="tel:+16613227764">24 Hour Emergency Call Out is Available</a></p>
+        <div class="address-block">
+          <p>B&amp;G Machine and Welding</p>
+          <p>3801 Gilmore Ave</p>
+          <p>Bakersfield , Ca. 93308</p>
+          <p><a href="tel:+16613227764">661-322-7764</a></p>
+          <p><a href="tel:+16613228621">661-322-8621</a></p>
+          <p><a href="tel:+16613229004">661-322-9004 Fax</a></p>
+          <p><a href="mailto:contact@bgmach.com">contact@bgmach.com</a></p>
+        </div>
+        <p><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=3801%20Gilmore%20Ave%20Bakersfield%20CA%2093308">Map</a></p>
+      </div>
+      <form class="form reveal" style="--d:80ms" id="demo-form" action="contact.html" method="post" onsubmit="event.preventDefault();var box=document.getElementById('demo-result');if(box)box.hidden=false;return false;">
+        <p class="demo-flag">Demo only. This form does not send a message.</p>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel">
+        <label for="msg">Message</label>
+        <textarea id="msg" name="msg" rows="5"></textarea>
+        <button class="btn btn-red" type="button" id="demo-send">Submit demo</button>
+        <p id="demo-result" hidden>Nothing was sent. This demo form stays on this page.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-name">B&amp;G Machine and Welding</p>
+      <p>3801 Gilmore Ave<br>Bakersfield, CA 93308</p>
+      <p><a href="tel:+16613227764">661-322-7764</a></p>
+      <p>Copyright &copy; 2011 by B&amp;G Machine</p>
+    </div>
+    <p>Demo redesign by Kestrel Integrations - not the official site. <a href="https://www.bgmach.com/">Original site</a>.</p>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="tel" href="tel:+16613227764">Call 661-322-7764</a>
+  <a class="go" href="contact.html">Contact</a>
+</div>
+<script src="js/site.js"></script>
+<script>
+if (!document.documentElement.classList.contains("ready")) {
+  var nodes = document.querySelectorAll(".reveal");
+  for (var i = 0; i < nodes.length; i++) nodes[i].classList.add("is-in");
+}
+</script>
+</body>
+</html>
